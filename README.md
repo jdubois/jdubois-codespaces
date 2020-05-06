@@ -20,7 +20,7 @@ This Docker image is based on [mcr.microsoft.com/vscode/devcontainers/universal:
 
 This image is available on DockerHub at [jdubois/jdubois-codespace](https://hub.docker.com/r/jdubois/jdubois-codespaces).
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/jdubois/jdubois-codespace.svg)](https://hub.docker.com/r/jdubois/jdubois-codespace/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/jdubois/jdubois-codespaces.svg)](https://hub.docker.com/r/jdubois/jdubois-codespaces/)
 
 ## How to use this image
 
