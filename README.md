@@ -63,3 +63,8 @@ curl -fsSL https://raw.githubusercontent.com/jdubois/jdubois-codespaces/master/d
 This configuration file is made for JHipster projects, for normal Java developers you probably only want to open up port 8080.
 
 It will configure Codespaces with some popular and useful Visual Studio Code extensions, to develop with Java and Docker.
+
+## Test with a sample project
+
+The [jdubois/jhipster-vs-codespaces](https://github.com/jdubois/jhipster-vs-codespaces) is a JHipster project which is configured to use the `jdubois/jdubois-codespaces` Docker image. The configuration is available in the [.devcontainer/devcontainer.json](https://github.com/jdubois/jhipster-vs-codespaces/blob/master/.devcontainer/devcontainer.json) file.
+
