@@ -68,3 +68,6 @@ It will configure Codespaces with some popular and useful Visual Studio Code ext
 
 The [jdubois/jhipster-vs-codespaces](https://github.com/jdubois/jhipster-vs-codespaces) is a JHipster project which is configured to use the `jdubois/jdubois-codespaces` Docker image. The configuration is available in the [.devcontainer/devcontainer.json](https://github.com/jdubois/jhipster-vs-codespaces/blob/master/.devcontainer/devcontainer.json) file.
 
+## License
+
+You are free to use this Docker image under the [Apache 2 license](LICENSE.txt).
