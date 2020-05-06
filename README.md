@@ -54,10 +54,10 @@ You need to add a `.devcontainer/devcontainer.json` to your repository:
 }
 ```
 
-Or if you can download the [devcontainer.json](https://raw.githubusercontent.com/jdubois/jdubois-configuration/master/devcontainer.json) provided in this directory:
+Or if you can download the [devcontainer.json](https://raw.githubusercontent.com/jdubois/jdubois-codespaces/master/devcontainer.json) provided in this directory:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/jdubois/jdubois-configuration/master/devcontainer.json
+curl -fsSL https://raw.githubusercontent.com/jdubois/jdubois-codespaces/master/devcontainer.json
 ```
 
 This configuration file is made for JHipster projects, for normal Java developers you probably only want to open up port 8080.
