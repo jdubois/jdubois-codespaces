@@ -18,39 +18,40 @@ This Docker image is based on [mcr.microsoft.com/vscode/devcontainers/universal:
 - It replaces the default Java 8, OpenJDK-based image with Azul Zulu's Java 11 so we have a more recent and supported JDK
 - It adds Docker Compose, as many Java developers use it to run their services
 
+This image is available on DockerHub at [jdubois/jdubois-codespace](https://hub.docker.com/r/jdubois/jdubois-codespaces).
+
+[![Docker Pulls](https://img.shields.io/docker/pulls/jdubois/jdubois-codespace.svg)](https://hub.docker.com/r/jdubois/jdubois-codespace/)
+
 ## How to use this image
 
 You need to add a `.devcontainer/devcontainer.json` to your repository:
 
 ```json
 {
-    "name": "JHipster",
-    "image": "jdubois/jdubois-codespaces",
-    "settings": { 
-		  "terminal.integrated.shell.linux": "/bin/bash"
-	  },
-    // Open ports
-    "forwardPorts": [8080, 9000],
-  
-    // Install ESLint and Peacock extensions
-    "extensions": [
-      "dbaeumer.vscode-eslint",
-      "ms-azuretools.vscode-docker",
-      "ms-vscode.azurecli",
-      "Pivotal.vscode-boot-dev-pack",
-      "Pivotal.vscode-spring-boot",
-      "redhat.java",
-      "redhat.vscode-yaml",
-      "VisualStudioExptTeam.vscodeintellicode",
-      "vscjava.vscode-java-debug",
-      "vscjava.vscode-java-dependency",
-      "vscjava.vscode-java-pack",
-      "vscjava.vscode-java-test",
-      "vscjava.vscode-maven",
-      "vscjava.vscode-spring-boot-dashboard",
-      "vscjava.vscode-spring-initializr"
-    ],
-  }
+  "name": "JHipster",
+  "image": "jdubois/jdubois-codespaces",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "forwardPorts": [8080, 9000],
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "ms-azuretools.vscode-docker",
+    "ms-vscode.azurecli",
+    "Pivotal.vscode-boot-dev-pack",
+    "Pivotal.vscode-spring-boot",
+    "redhat.java",
+    "redhat.vscode-yaml",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "vscjava.vscode-java-debug",
+    "vscjava.vscode-java-dependency",
+    "vscjava.vscode-java-pack",
+    "vscjava.vscode-java-test",
+    "vscjava.vscode-maven",
+    "vscjava.vscode-spring-boot-dashboard",
+    "vscjava.vscode-spring-initializr"
+  ]
+}
 ```
 
 Or if you can download the [devcontainer.json](https://raw.githubusercontent.com/jdubois/jdubois-configuration/master/devcontainer.json) provided in this directory:

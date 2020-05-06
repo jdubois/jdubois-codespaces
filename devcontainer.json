@@ -1,13 +1,10 @@
 {
   "name": "JHipster",
   "image": "jdubois/jdubois-codespaces",
-  "settings": { 
+  "settings": {
 	 "terminal.integrated.shell.linux": "/bin/bash"
 	},
-  // Open ports
   "forwardPorts": [8080, 9000],
-
-  // Install ESLint and Peacock extensions
   "extensions": [
     "dbaeumer.vscode-eslint",
     "ms-azuretools.vscode-docker",
