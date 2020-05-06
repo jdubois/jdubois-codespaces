@@ -18,7 +18,7 @@ This Docker image is based on [mcr.microsoft.com/vscode/devcontainers/universal:
 - It replaces the default Java 8, OpenJDK-based image with Azul Zulu's Java 11 so we have a more recent and supported JDK
 - It adds Docker Compose, as many Java developers use it to run their services
 
-This image is available on DockerHub at [jdubois/jdubois-codespace](https://hub.docker.com/r/jdubois/jdubois-codespaces).
+This image is available on DockerHub at [jdubois/jdubois-codespaces](https://hub.docker.com/r/jdubois/jdubois-codespaces).
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/jdubois/jdubois-codespaces.svg)](https://hub.docker.com/r/jdubois/jdubois-codespaces/)
 
