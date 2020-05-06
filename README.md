@@ -28,7 +28,7 @@ You need to add a `.devcontainer/devcontainer.json` to your repository:
 
 ```json
 {
-  "name": "JHipster",
+  "name": "jdubois-codespaces",
   "image": "jdubois/jdubois-codespaces",
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
