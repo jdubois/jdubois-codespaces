@@ -1,19 +1,16 @@
 # Codespaces Dockerfile for developing with modern Java
 
-This project is to help Java developers work with Visual Studio Codespaces.
+This project is to help Java developers work with GitHub Codespaces.
 
 It is made for [JHipster](https://www.jhipster.tech/) users and all other modern Java developers.
 
 ## More information about Codespaces
 
-- [Codespaces main page](https://visualstudio.microsoft.com/services/visual-studio-online/)
-- [Codespaces login page](https://online.visualstudio.com/login)
-- [Codespaces documentation](https://docs.microsoft.com/en-us/visualstudio/online/overview/what-is-vsonline)
-- [Pricing information](https://azure.microsoft.com/en-us/pricing/details/visual-studio-online/)
+- [GitHub Codespaces main page](https://github.com/features/codespaces)
 
 ## The jdubois/jdubois-codespaces Docker image
 
-This Docker image is based on [mcr.microsoft.com/vscode/devcontainers/universal:linux](https://github.com/microsoft/vscode-dev-containers/tree/master/containers/vsonline-linux), which is the default Docker image for Codespaces.
+This Docker image is based on [mcr.microsoft.com/vscode/devcontainers/universal:linux](https://github.com/microsoft/vscode-dev-containers/tree/master/containers/codespaces-linux), which is the default Docker image for Codespaces.
 
 - As it's based on the default Codespaces Docker image, it has all the tools and utilities from the default image
 - It replaces the default Java 8, OpenJDK-based image with Azul Zulu's Java 11 so we have a more recent and supported JDK
